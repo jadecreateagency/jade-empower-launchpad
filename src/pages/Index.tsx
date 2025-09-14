@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Problem from "@/components/Problem";
 import Plans from "@/components/Plans";
-import CTA from "@/components/CTA";
 
 const Index = () => {
   return (
@@ -11,7 +10,6 @@ const Index = () => {
       <About />
       <Problem />
       <Plans />
-      <CTA />
     </div>
   );
 };

@@ -30,7 +30,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold font-playfair text-foreground mb-6">
               Por Que a Jade Create
               <span className="block text-primary">Existe?</span>
             </h2>
@@ -61,8 +61,8 @@ const About = () => {
           </div>
 
           {/* Mission Statement */}
-          <div className="bg-gradient-primary rounded-3xl p-12 text-center text-white">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6">
+          <div className="bg-gradient-primary rounded-3xl p-12 text-center text-foreground">
+            <h3 className="text-3xl md:text-4xl font-bold font-playfair mb-6">
               Nossa Missão
             </h3>
             <p className="text-xl leading-relaxed max-w-4xl mx-auto opacity-95">
